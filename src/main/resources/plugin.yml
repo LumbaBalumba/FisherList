@@ -1,0 +1,11 @@
+name: FishersList
+version: '${project.version}'
+main: org.lumbabalumba.fisherslist.FishersList
+api-version: 1.19
+authors: [ LumbaBalumba ]
+description: A simple plugin that shows a list of players who are currently fishing
+commands:
+  fishers:
+    description: Get a list of fishing players
+    usage: /fishers
+    permission: fisherslist.fisherspermission
